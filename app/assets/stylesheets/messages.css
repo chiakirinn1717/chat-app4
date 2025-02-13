@@ -11,12 +11,39 @@
   .side-bar-top {
     height: 100px;
     padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .userName a {
+    font-size: 16px;
+    color: #fafafa;
+    text-decoration: none;
+  }
+  
+  .button-createChat a {
+    font-size: 10px;
+    color: deepskyblue;
+    border: solid 1px lightblue;
+    padding: 14px;
+    text-decoration: none;
   }
   
   .side-bar-bottom {
     height: calc(100vh - 100px);
     background: #2f3e51;
     padding: 0 20px;
+    overflow: scroll;
+  }
+  
+  .room {
+    padding: 20px 0 40px;
+  }
+  
+  .room a {
+    color: white;
+    text-decoration: none;
   }
   
   .chat {
